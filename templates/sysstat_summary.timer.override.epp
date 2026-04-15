@@ -2,4 +2,4 @@
 Description=Generate summary of yesterday's process accounting
 
 [Timer]
-OnCalendar=00:<%= $sa2_hour %>:<%= $sa2_minute %>
+OnCalendar=<%= $sa2_hour %>:<%= $sa2_minute %>
