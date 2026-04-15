@@ -1,6 +1,6 @@
 {
   "name": "qtechnologies-sysstat",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Q-Technologies",
   "summary": " Puppet module to manage the installation and configuration of Sysstat on various OSes",
   "license": "Apache-2.0",

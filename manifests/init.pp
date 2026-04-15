@@ -203,7 +203,7 @@ class sysstat (
       if $facts['os']['family'] == 'Debian' {
         service { 'sysstat':
           ensure => false,
-          enable => false,
+          enable => $svc_collect_ensure,
         }
         file { $cron_path2:
           ensure => absent,
